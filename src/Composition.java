@@ -2,7 +2,7 @@
 public class Composition {
     public static void main(String[] args){
         System.out.println("All subfolders and files");
-
+        System.out.println("All subfolders and files" );
     }
 }
 class Folder{
@@ -17,7 +17,7 @@ class Folder{
 
     }
 
-     System.out.println("All subfolders and files" + folder);
+
 
 }
 
@@ -31,6 +31,6 @@ class File{
     public void setFileName(String fileName) {
         this.fileName = fileName;
     }
-System.out.println("File name:")
+//System.out.println("File name:")
 
 }
